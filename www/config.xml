@@ -6,5 +6,7 @@
     <access origin="*"/>
     <preference name="fullscreen" value="true"/>
     <preference name="webviewbounce" value="true"/>
+<feature name="Media" value="Media" />
 <gap:plugin name="org.apache.cordova.media" />
+<plugin name="Media" value="org.apache.cordova.media"/>
 </widget>
