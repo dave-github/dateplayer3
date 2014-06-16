@@ -7,7 +7,7 @@
     <author email="dev@cordova.apache.org" href="http://cordova.io">
         Apache Cordova Team
     </author>
-	<gap:plugin name="org.apache.cordova.media" />
+ <gap:plugin name="org.apache.cordova.media" />
     <content src="index.html"/>
     <access origin="*"/>
 </widget>
