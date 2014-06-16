@@ -6,7 +6,5 @@
     <access origin="*"/>
     <preference name="fullscreen" value="true"/>
     <preference name="webviewbounce" value="true"/>
-	<feature name="Media">
-    <param name="android-package" value="org.apache.cordova.media.AudioHandler" />
-</feature>
+	<gap:plugin name="org.apache.cordova.media" version="0.2.8" />
 </widget>
