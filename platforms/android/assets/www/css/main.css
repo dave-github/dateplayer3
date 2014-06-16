@@ -1,0 +1,83 @@
+body {
+
+font-family: arial;
+background:#333;
+color:#ddd;
+
+}
+
+audio {
+margin-top:20px;
+width:400px;
+}
+
+.input {
+width:120px;
+height:26px;
+border:1px solid #333;
+background:#666;
+color:#ddd;
+border-radius:4px;
+padding-left:4px;
+}
+
+#playlist ol  {
+
+list-style:none;
+margin-left:0px;
+padding-left:0px;
+margin-bottom:60px;
+}
+
+#playlist ol li {
+padding:0px 2px 1px 5px;
+clear:both;
+height:120px;
+vertical-align:middle
+
+}
+#playlist ol li p {
+padding-top:4px; height:20px;
+
+}
+#playlist ol li span {
+margin-top:30px; height:20px;
+float:left;
+margin-right:10px;
+}
+#playlist ol li img {
+float:left;
+height:100px; width:100px;margin-right:20px;
+box-shadow: 2px 2px 5px #000000;
+margin-top:4px;
+}
+
+#playlist ul li:hover {
+
+background:#555;
+
+}
+
+.playing {
+background:#444;
+border-radius:4px;
+
+}
+
+#play_button {
+width:80px;
+height:80px;
+float:left;
+background-image:url('../img/Player Play.png') ;
+background-size:80px 80px;
+margin:10px 10px;
+}
+
+#pause_button {
+width:80px;
+height:80px;
+float:left;
+background-image:url('../img/Player Pause.png');
+background-size:80px 80px;
+margin:10px 10px;
+}
